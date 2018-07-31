@@ -1,0 +1,1 @@
+DELETE a FROM pacientes AS a, pacientes AS b WHERE a.prontuario=b.prontuario AND a.idpaciente < b.idpaciente  //Deletar pacientes repetidos por prontuarios
